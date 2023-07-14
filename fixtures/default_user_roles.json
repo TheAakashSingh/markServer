@@ -1,0 +1,28 @@
+[
+    {
+        "model": "user_management.UserRoles",
+        "pk": 1,
+        "fields": {
+            "role": "admin",
+            "description": "Admin can access admin panel and all dashboards"
+        }
+    },
+
+    {
+        "model": "user_management.UserRoles",
+        "pk": 2,
+        "fields": {
+            "role": "moderator",
+            "description": "Has read only data access"
+        }
+    },
+
+    {
+        "model": "user_management.UserRoles",
+        "pk": 3,
+        "fields": {
+            "role": "user",
+            "description": "Has read only data access"
+        }
+    }
+]
